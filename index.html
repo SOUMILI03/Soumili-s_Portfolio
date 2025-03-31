@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soumili's Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="left-nav">
+            <b>Soumili's Portfolio</b>
+        </div>
+        <div class="right-nav">
+            <ul id="side-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>    
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-body">
+        <div class="left-home">
+            <h2>Hi, <br> My name is <span>Soumili Banerjee</span>,<br> I am <span class="auto-type"></span></h2>
+        </div>
+        <div class="right-home">
+            <img src="soumili05.jpg" alt="Soumili Image">
+        </div>
+        
+    </section>
+    <hr>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-left">
+            <h1>About</h1>
+        </div>
+        <div class="section-right">
+            <div class="part-one">
+                <h2>Summary</h2>
+                <p>I am efficient, hard-working, and organized. I am eager to dive into new concepts and explore innovative thinking.</p>
+            </div>
+            <div class="part-two">
+                <h2>Achievements</h2>
+                <ul>
+                    <li>Completed STUDY ABROAD PROGRAM on AI, IOT, ML, and DATA ANALYTICS at NATIONAL UNIVERSITY OF SINGAPORE.</li>
+                    <li>Joined the event of Veer Gantha at Fortwilliam.</li>
+                </ul>
+                <a href="Soumili_CV.pdf" download="Soumili_CV.pdf" class="cv-button">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skill">
+        <h1>Skills</h1>
+        <div class="skill-container">
+            <div class="skill-box">
+                <h2>Coursework</h2>
+                <ul>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Object-Oriented Programming</li>
+                    <li>Frontend Development</li>
+                    <li>Database Management System</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h2>Programming Skills</h2>
+                <ul>
+                    <li>Java</li>
+                    <li>C - Language</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="project-header">
+            <h1>Project</h1>
+        </div>
+        <div class="project">
+            <h2>Music Player</h2>
+            <p><strong>Description:</strong> Here's an music player,which provides an enjoyable and convenient way to listen to your favourite music.</p>
+            <p><strong>Tools & Technologies:</strong> HTML , CSS , JavaScript</p>
+            <a href="https://soumili03.github.io/Music-Player/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h2>Image Gallery</h2>
+            <p><strong>Description:</strong> Image gallery: This project is based on a Gallery of Images where users can see a collection of birds and monuments.</p>
+            <p><strong>Tools & Technologies:</strong> 
+                <br>
+                <b>HTML :</b> Structure of the image gallery.
+                <br>
+                <b>CSS :</b> Styling for layout, image positioning, and hover effects.
+                <br>
+                <b>JavaScript :</b> Adding text animations for category changes.
+            </p>
+            <a href="https://soumili03.github.io/Image_Gallery/" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h2>Calculator</h2>
+            <p><strong>Description:</strong> This project is a Basic Calculator that performs essential arithmetic operations such as addition, subtraction, multiplication, and division. It has a user-friendly interface with buttons for input and a display screen to show results.</p>
+            <p><strong>Tools & Technologies:</strong> <br>
+                <b>HTML:</b> To create the structure of the
+                calculator (buttons and display screen).
+                <br>
+                <b>CSS: </b>For styling, layout, and making the
+                calculator visually appealing.
+                <br>
+                <b>JavaScript:</b> To handle the logic for
+                performing arithmetic calculations and
+                updating the display.
+                
+            </p>
+            <a href="https://soumili03.github.io/Calculator/" target="_blank">View Project</a>
+        </div>
+    </section>
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-form">
+        <h1>Contact Me</h1>
+        <form id="contactForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+    
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/soumili-banerjee-55901b289" target="_blank">LinkedIn</a>
+            <a href="https://github.com/SOUMILI03" target="_blank">GitHub</a>
+            <!-- <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a> -->
+        </div>
+        <small>© 2024 Soumili's Portfolio | All rights reserved</small>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
